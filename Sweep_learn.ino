@@ -46,9 +46,9 @@ for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
    myservofl.write(pos); 
     delay(15);                       // waits 15 ms for the servo to reach the position
   }
-    myservorr.write(10);              // tell servo to go to position in variable 'pos'
-  myservorl.write(10); 
-  myservofr.write(10); 
-   myservofl.write(10);  
+    myservorr.write( 0);              // tell servo to go to position in variable 'pos'
+  myservorl.write(0); 
+  myservofr.write(0); 
+   myservofl.write(0);  
    delay(5000);
 }
